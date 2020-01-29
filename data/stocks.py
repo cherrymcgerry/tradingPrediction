@@ -67,8 +67,10 @@ def get_stock_dataframes():
 
         except Exception as ex:
             print('Error',ex)
-
+    print(dfs)
     return dfs
+
+get_stock_dataframes()
 
 
 
